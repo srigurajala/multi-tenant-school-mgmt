@@ -1,6 +1,6 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export let role = "student";
 
 export const teachersData = [
   {
@@ -774,7 +774,7 @@ export const eventsData = [
     id: 1,
     title: "Lake Trip",
     class: "1A",
-    date: "2025-01-01",
+    date: "2025-10-22",
     startTime: "10:00",
     endTime: "11:00",
   },
@@ -782,7 +782,7 @@ export const eventsData = [
     id: 2,
     title: "Picnic",
     class: "2A",
-    date: "2025-01-01",
+    date: "2025-20-23",
     startTime: "10:00",
     endTime: "11:00",
   },
@@ -915,14 +915,13 @@ export const announcementsData = [
   },
 ];
 
-
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2025, 9, 22, 8, 0),
+    end: new Date(2025, 9, 22, 8, 45),
   },
   {
     title: "English",
